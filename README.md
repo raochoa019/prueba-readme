@@ -9,6 +9,8 @@ _Para la compilación y ejecución del proyecto es necesario contar con el entor
 
 ### Frontend
 _Para el levantamiento del frontend_
+
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/requerimiento_frontend.png)
 ```
 
 ```
