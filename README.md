@@ -14,11 +14,11 @@ _Para empezar, instale Visual Studio y seleccione la opción "Desarrollo para di
 
 _Proceda a clonar el proyecto, luego de eso podrá observar los siguientes archivos accediendo a la carpeta "Proyecto\_LP/PRY\_LENG\_PROG"_
 
-![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/solucionVisualStudio.jpg)
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/solucionVisualStudio.JPG)
 
 _Una vez abierta la solución podrá visualizar el entorno de desarrollo de la siguiente manera_
 
-![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/VisualStudio.jpg)
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/VisualStudio.JPG)
 
 ```
 
