@@ -5,12 +5,21 @@ _Aplicación para veterinarias y estadía de mascotas donde existe el registro d
 
 ### Pre-requisitos 📋
 
-_Para la compilación y ejecución del proyecto es necesario contar con el entorno de desarrollo Microsoft Visual Studio para la sección del frontend. Además tener un dispositivo móvil configurado previamente en el cual se pueda compilar la aplicación, caso contrario se puede instalar un emulador para la ejecución de la aplicación._
+_Además tener un dispositivo móvil configurado previamente en el cual se pueda compilar la aplicación, caso contrario se puede instalar un emulador para la ejecución de la aplicación._-
 
 ### Frontend
-_Para el levantamiento del frontend_
+_Para empezar, instale Visual Studio y seleccione la opción "Desarrollo para dispositivos móviles con .NET" en el programa de instalación._
 
 ![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/requerimiento_frontend.png)
+
+_Proceda a clonar el proyecto, luego de eso podrá observar los siguientes archivos accediendo a la carpeta "Proyecto\_LP/PRY\_LENG\_PROG"_
+
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/solucionVisualStudio.jpg)
+
+_Una vez abierta la solución podrá visualizar el entorno de desarrollo de la siguiente manera_
+
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/VisualStudio.jpg)
+
 ```
 
 ```
