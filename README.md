@@ -20,8 +20,17 @@ _Una vez abierta la solución podrá visualizar el entorno de desarrollo de la s
 
 ![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/VisualStudio.JPG)
 
-```
+_Para la visualización del aplicativo será necesario ciertas configuraciones.\nDeberá tener activado el modo desarrollador, depuración usb, permitir la instalación de aplicaciones de terceros._
+_Otra forma de probar el aplicativo es mediante un emulador que puede ser instalado en las mismas herramientas que provee Visual Studio_
 
+_Dado que el proyecto se encuentra trabajando con Apis locales donde se conecta para realizar las debidas peticiones. Es necesario ejecutar el comando desde el simbolo del sistema de Adb de Android_
+_Opcion que encontrará cómo lo ve en la imagen_
+
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/adConsole.JPG)
+
+_En la consola deberá ejecutar el comando_
+```
+adb reverse tcp:800 tcp:8000
 ```
 
 ### Backend
