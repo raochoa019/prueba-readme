@@ -7,7 +7,7 @@ _Aplicación para veterinarias y estadía de mascotas donde existe el registro d
 
 _Además tener un dispositivo móvil configurado previamente en el cual se pueda compilar la aplicación, caso contrario se puede instalar un emulador para la ejecución de la aplicación._-
 
-### Frontend
+### Frontend 👨‍💻
 _Para empezar, instale Visual Studio y seleccione la opción "Desarrollo para dispositivos móviles con .NET" en el programa de instalación._
 
 ![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/requerimiento_frontend.png)
@@ -26,102 +26,45 @@ _Otra forma de probar el aplicativo es mediante un emulador que puede ser instal
 _Dado que el proyecto se encuentra trabajando con Apis locales donde se conecta para realizar las debidas peticiones. Es necesario ejecutar el comando desde el simbolo del sistema de Adb de Android_
 _Opcion que encontrará cómo lo ve en la imagen_
 
-![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/adConsole.JPG)
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/adConsole.png)
 
-_En la consola deberá ejecutar el comando_
+_En la consola deberá ejecutar el comando para que pueda realizar la conexión local con las peticiones para la visualización de los datos en la aplicación._
 ```
 adb reverse tcp:800 tcp:8000
 ```
 
-### Backend
+_Una vez aplicado todo lo mencionado anteriormente, en la sección superior podrá visualizar la siguiente opción que le permitirá ejecutar el aplicativo ya sea desde su dispositivo móvil o emulador_
+
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/compilarProyecto.png)
+
+### Base de datos: MySQL Workbench 🗄
+_Se está utilizando la herramienta visual de diseño de bases de datos MySQL Workbench para el almaecenamiento y consulta de información_
+
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/database.JPG)
+
+### Backend 🗄️⚙️
+_Para empezar debe asegurarse que su máquina local tenga PHP y Composer instalados._
+_Una vez instalado los requerimientos anteriores podrá visualizar los archivos de la siguiente manera_
+
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/backend.JPG)
+
+_Existen migraciones que se han realizado, para ejecutarlas y carga la información es necesario la ejecución del siguiente comando_
+```
+php artisan migrate:fresh --seed
 ```
 
-```
+_Dicho comando procederá a migrar la información a nuestra base de datos mencionada anteriormente cómo se ve en la imagen_
 
-### Instalación 🔧
+![requerimiento frontend](https://raw.githubusercontent.com/raochoa019/prueba-readme/main/recursos/migraciones.JPG)
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+_Finalmente para el levantamiento de los servicios desde el backend es necesario la ejecución del siguiente comando_
 
 ```
-Da un ejemplo
+php artisan serve
 ```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+* **Bryan Alava Calderon**
+* **Tommy Beltrán Borbor**
+* **Robert Ochoa Ramos**
+* **Aaron Villao Mero**
